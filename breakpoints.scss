@@ -1,0 +1,18 @@
+$breakpoint-xs: "xs", "(max-width: 599px)";
+$breakpoint-sm: "sm", "(max-width: 959px)";
+$breakpoint-md: "md", "(max-width: 1279px)";
+$breakpoint-lg: "lg", "(max-width: 1919px)";
+$breakpoint-xl: "xl", "(max-width: 5000px)";
+
+$breakpoint-lt-sm: "lt-sm", "(max-width: 599px)";
+$breakpoint-lt-md: "lt-md", "(max-width: 959px)";
+$breakpoint-lt-lg: "lt-lg", "(max-width: 1279px)";
+$breakpoint-lt-xl: "lt-xl", "(max-width: 1919px)";
+$breakpoint-gt-xs: "gt-xs", "(min-width: 600px)";
+$breakpoint-gt-sm: "gt-sm", "(min-width: 960px)";
+$breakpoint-gt-md: "gt-md", "(min-width: 1280px)";
+$breakpoint-gt-lg: "gt-lg", "(min-width: 1920px)";
+
+$breakpoints: $breakpoint-xs, $breakpoint-sm, $breakpoint-md, $breakpoint-lg, $breakpoint-xl, $breakpoint-lt-sm,
+  $breakpoint-lt-md, $breakpoint-lt-lg, $breakpoint-lt-xl, $breakpoint-gt-xs, $breakpoint-gt-sm, $breakpoint-gt-md,
+  $breakpoint-gt-lg;
